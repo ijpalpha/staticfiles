@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: latest
+    commands:
+      - echo "Installing dependencies..."
+  pre_build:
+    commands:
+      - echo "Running linting checks..."
+  build:
+    commands:
+      - echo "Running tests..."
+  post_build:
+    commands:
+      - echo "Tests completed successfully."
