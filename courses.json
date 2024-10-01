@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Web Development", "description": "Learn how to build websites and web apps using HTML, CSS, JavaScript, and popular frameworks." },
+    { "id": 2, "name": "Data Science", "description": "Explore data analysis, machine learning, and data visualization techniques using Python and R." },
+    { "id": 3, "name": "Graphic Design", "description": "Master the principles of design and learn to use industry-standard software like Adobe Photoshop and Illustrator." },
+    { "id": 4, "name": "Cybersecurity", "description": "Understand the fundamentals of cybersecurity, including network security, cryptography, and ethical hacking." },
+    { "id": 5, "name": "Digital Marketing", "description": "Learn about SEO, SEM, social media marketing, and content marketing strategies to enhance online presence." },
+    { "id": 6, "name": "Artificial Intelligence", "description": "Dive into AI concepts, neural networks, and deep learning with practical applications in various domains." },
+    { "id": 7, "name": "Mobile App Development", "description": "Create mobile applications for Android and iOS using Java, Kotlin, Swift, and React Native." },
+    { "id": 8, "name": "Blockchain Technology", "description": "Discover the workings of blockchain, cryptocurrencies, and decentralized applications." },
+    { "id": 9, "name": "Cloud Computing", "description": "Learn about cloud services, deployment models, and architecture with platforms like AWS, Azure, and Google Cloud." },
+    { "id": 10, "name": "Project Management", "description": "Develop skills in project planning, execution, and management using Agile, Scrum, and traditional methodologies." },
+    { "id": 11, "name": "Game Development", "description": "Explore game design, development, and programming with Unity and Unreal Engine." },
+    { "id": 12, "name": "Business Analytics", "description": "Analyze business data to drive strategic decisions using tools like Excel, SQL, and Tableau." },
+    { "id": 13, "name": "DevOps Engineering", "description": "Implement DevOps practices, CI/CD pipelines, and automation using tools like Jenkins, Docker, and Kubernetes." },
+    { "id": 14, "name": "Artificial Intelligence for Healthcare", "description": "Apply AI and machine learning techniques to healthcare data for diagnosis, treatment, and personalized medicine." },
+    { "id": 15, "name": "Virtual Reality and Augmented Reality", "description": "Create immersive experiences with VR and AR technologies using Unity, Unreal Engine, and ARKit/ARCore." },
+    { "id": 16, "name": "Financial Technology (FinTech)", "description": "Explore innovations in financial services, including mobile banking, blockchain, and digital payments." },
+    { "id": 17, "name": "Robotics", "description": "Learn about robot design, sensors, actuators, and programming with platforms like Arduino and Raspberry Pi." },
+    { "id": 18, "name": "Internet of Things (IoT)", "description": "Connect and control devices over the internet using IoT protocols, platforms, and development tools." },
+    { "id": 19, "name": "Ethical Hacking", "description": "Understand penetration testing, vulnerability assessment, and security protocols to protect systems and networks." },
+    { "id": 20, "name": "Big Data", "description": "Process and analyze large datasets using Hadoop, Spark, and NoSQL databases." }
+]
