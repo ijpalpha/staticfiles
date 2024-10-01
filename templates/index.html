@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technological Innovation Institute - Course Enrollment System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../static/OIP.jpg" alt="TII Logo">
+        </div>
+        <h1>Welcome to the Technological Innovation Institute</h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('courses_page') }}">Courses</a>
+            <a href="{{ url_for('enroll_page') }}">Enroll</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>About TII</h2>
+            <p>The Technological Innovation Institute (TII) is a pioneering research and development organization in the Middle East, dedicated to advancing science and technology. Our mission is to drive innovation and create impactful solutions that contribute to the global scientific community.</p>
+        </section>
+        
+        <section class="system-overview">
+            <h2>Course Enrollment System</h2>
+            <p>Our Course Enrollment System is designed to streamline the process of registering for our diverse range of courses. Whether you are looking to enhance your skills in technology, data science, design, or any other field, our system makes it easy to browse and enroll in courses that suit your needs.</p>
+        </section>
+        
+        <section class="features">
+            <h2>System Features</h2>
+            <ul>
+                <li>Browse a comprehensive list of courses offered by TII.</li>
+                <li>View detailed information about each course, including descriptions and prerequisites.</li>
+                <li>Easily enroll in courses with a simple and intuitive registration process.</li>
+                <li>Receive confirmation and updates via email.</li>
+            </ul>
+        </section>
+        
+        <section class="outcomes">
+            <h2>Outcomes of the Course Registration System</h2>
+            <p>The implementation of our Course Enrollment System aims to achieve the following outcomes:</p>
+            <ul>
+                <li><b>Increased Accessibility:</b> Providing a user-friendly platform that makes it easy for students to find and enroll in courses, ensuring that education is accessible to all.</li>
+                <li> <b>Enhanced User Experience:</b> Offering a seamless and efficient registration process that saves time and reduces frustration for students.</li>
+                <li><b>Improved Course Management:</b> Enabling TII to manage course offerings more effectively, track enrollments, and make data-driven decisions.</li>
+                <li><b>Better Communication:</b> Keeping students informed about their enrollment status and any updates related to their courses through automated notifications.</li>
+                <li><b>Promoting Lifelong Learning:</b> Encouraging continuous education and professional development by offering a wide range of courses that cater to various interests and career goals.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; TII 2024. All Rights Reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
